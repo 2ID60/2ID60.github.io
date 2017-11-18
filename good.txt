@@ -1,0 +1,16 @@
+<div class="hero-body">
+  <div class="container">
+    <h2 class="subtitle">You're good to go!</h2>
+    <div class="notification is-success">
+      Even if you have been drinking tonight, almost all alcohol has been broken
+      down by your body! You're good to go and can drive home safely. Good job!
+    </div>
+  </div>
+
+</div>
+
+<div class="container">
+  <a class="button is-large is-primary" onclick="checkAlchoholLevel()">
+    Recheck
+  </a>
+</div>

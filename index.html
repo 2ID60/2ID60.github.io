@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+  <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
+  <link rel="icon" href="favicon-car.ico" type="image/x-icon"/>
+  <title>Can I still drive?</title>
+</head>
+<body>
+
+  <!-- Title section -->
+  <section class="hero is-primary">
+    <div class="hero-body">
+      <div class="container">
+        <div class="has-text-centered">
+          <h1 class="title">Can you still drive?</h1>
+          <h2 class="subtitle">Fill in all forms to see if you're still allowed to drive!</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Navigation -->
+  <section class="hero is-primary">
+    <div class="container">
+      <nav class="tabs is-boxed">
+        <ul>
+          <li class="is-active">
+            <a href="index.html">
+              <span class="icon is-small"><i class="fa fa-home"></i></span>
+              <span>Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="work.html">
+              <span class="icon is-small"><i class="fa fa-question"></i></span>
+              <span>How does it work?</span>
+            </a>
+          </li>
+          <!-- <li>
+          <a href="contact.html">
+          <span class="icon is-small"><i class="fa fa-commenting-o"></i></span>
+          <span>Contact</span>
+        </a>
+      </li> -->
+    </ul>
+  </nav>
+</div>
+</section>
+
+<!-- Question section -->
+<section id="questionSection" class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <form id="drinkForm">
+
+        <div class="field">
+          <label class="label">Glasses of alcohol had:</label>
+          <div class="control has-icons-left">
+            <input id="glasses" class="input" type="tel" placeholder="Number of glasses">
+            <span class="icon is-small is-left">
+              <i class="fa fa-beer"></i>
+            </span>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Are you male or female?</label>
+          <div class="control has-icons-left">
+            <div class="select">
+              <select id="gender">
+                <option selected>Male</option>
+                <option>Female</option>
+              </select>
+            </div>
+            <span class="icon is-small is-left">
+              <i id="dropdown" class="fa fa-male"></i>
+            </span>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">How much do you weigh?</label>
+          <div class="control has-icons-left">
+            <input id="weight" class="input" type="tel" placeholder="Weight">
+            <span class="icon is-small is-left">
+              <i class="fa fa-user"></i>
+            </span>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">How many hours has it been since your last glass?</label>
+          <div class="control has-icons-left">
+            <input id="hours" class="input" type="tel" placeholder="Hours">
+            <span class="icon is-small is-left">
+              <i class="fa fa-clock-o"></i>
+            </span>
+          </div>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+  <div class="container">
+    <a class="button is-large is-primary" onclick="checkAlchoholLevel()">
+      Check
+    </a>
+  </div>
+</section>
+
+<section class="section">
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <p>
+          Any information that this site gives you is a mere suggestion. You should at all times
+          be extremely carefull when driving with or without alcohol in your system. The calculation
+          made by this site provides no rights and the results may differ from what you would expect
+          or not reflect how much alcohol there really is in your system.
+        </p>
+      </div>
+    </div>
+  </footer>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4" crossorigin="anonymous"></script>
+<script type='text/javascript' src='script.js'></script>
+
+</body>
+</html>

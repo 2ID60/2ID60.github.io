@@ -1,0 +1,33 @@
+<div class="hero-body">
+  <div class="container">
+    <h2 class="subtitle">If you're a starting driver:</h2>
+    <div class="notification is-warning">
+      Your level is still within the levels (below 0.2) but you have still have
+      been drinking so it might be a better idea to grab a cab anyway? Even a tiny
+      bit of alcohol can heavily influence your driving skills. If you drive, take
+      extra care!
+    </div>
+
+    <h2 class="subtitle">If you're not a starting driver:</h2>
+    <div class="notification is-warning">
+      Your level is still within the levels (below 0.5) but you have still have
+      been drinking so it might be a better idea to grab a cab anyway? Even a tiny
+      bit of alcohol can heavily influence your driving skills. If you drive, take
+      extra care!
+    </div>
+  </div>
+
+</div>
+
+<div class="container">
+  <a target="_blank" href="https://www.uber.com/" class="button is-large is-primary has-icon-left">
+    <span class="icon is-large is-left">
+      <i class="fa fa-taxi"></i>
+    </span>
+    <span>Get an uber</span>
+  </a>
+
+  <a class="button is-large is-primary" onclick="checkAlchoholLevel()">
+    Recheck
+  </a>
+</div>

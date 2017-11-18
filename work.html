@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+  <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
+  <link rel="icon" href="favicon-car.ico" type="image/x-icon"/>
+  <title>Can I still drive?</title>
+</head>
+<body>
+  <section class="hero hero-body is-primary">
+    <div class="container">
+      <div class="has-text-centered">
+        <h1 class="title">Can you still drive?</h1>
+        <h2 class="subtitle">Fill in all forms to see if you're still allowed to drive!</h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero is-primary">
+    <div class="container">
+      <nav class="tabs is-boxed">
+        <div class="container">
+          <ul>
+            <li>
+              <a href="index.html">
+                <span class="icon is-small"><i class="fa fa-home"></i></span>
+                <span>Home</span>
+              </a>
+            </li>
+            <li class="is-active">
+              <a href="work.html">
+                <span class="icon is-small"><i class="fa fa-question"></i></span>
+                <span>How does it work?</span>
+              </a>
+            </li>
+            <!-- <li>
+            <a href="contact.html">
+            <span class="icon is-small"><i class="fa fa-commenting-o"></i></span>
+            <span>Contact</span>
+          </a>
+        </li> -->
+      </ul>
+    </div>
+  </nav>
+</div>
+</section>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="subtitle">How we calculate your alcohol level</h2>
+      <p>We start by taking all the different needed values, the amount of glasses of alcohol you have had.
+        Because each respective glass contains (roughly) the same amount of alcohol (1 shot of strong liqour has as much alcohol as 1 beer!) we can
+        easily take this amount. Then we need to know whether you're male or female because this changes the speed your body brakes the alcohol down.
+        After We just need your weight and the amount of hours since the last drink. We then use the following formula: <br><br>
+        Alcohol level = ( (amount of glasses * 10) / (weight * r) ) - ( (hours - 0.5) * (weight * 0.002) ) <br><br>
+
+        Where r depends on whether you're male (0.7) or female (0.5). <br><br>
+
+        Some extra general information: <br>
+        Starting driver max = 0.2 <br>
+        Normal driver max = 0.5 <br> <br>
+
+        Fines for starting driver: <br>
+        <table class="table">
+          <tr>
+            <td>Between 0.20 and 0.80</td>
+            <td>300,-</td>
+          </tr>
+          <tr>
+            <td>Between 0.81 and 1.00</td>
+            <td>350,-</td>
+          </tr>
+          <tr>
+            <td>Between 1.01 and 1.15</td>
+            <td>450,-</td>
+          </tr>
+          <tr>
+            <td>Between 1.16 and 1.30</td>
+            <td>650,-</td>
+          </tr>
+        </table>
+
+        Fines for normal driver: <br>
+        <table class="table">
+          <tr>
+            <td>Between 0.54 and 0.80</td>
+            <td>325,-</td>
+          </tr>
+          <tr>
+            <td>Between 0.81 and 1.00</td>
+            <td>425,-</td>
+          </tr>
+          <tr>
+            <td>Between 1.01 and 1.15</td>
+            <td>550,-</td>
+          </tr>
+          <tr>
+            <td>Between 1.16 and 1.30</td>
+            <td>650,-</td>
+          </tr>
+        </table>
+
+        If there are 2 offences within 2 years, or 1 offence in combination with drugs your
+        drivers licence will be suspended and you will have to retake your exam.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <p>
+          Any information that this site gives you is a mere suggestion. You should at all times
+          be extremely carefull when driving with or without alcohol in your system. The calculation
+          made by this site provides no rights and the results may differ from what you would expect
+          or not reflect how much alcohol there really is in your system.
+        </p>
+      </div>
+    </div>
+  </footer>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4" crossorigin="anonymous"></script>
+<script type='text/javascript' src='script.js'></script>
+
+</body>
+</html>
