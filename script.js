@@ -30,15 +30,12 @@ function checkAlchoholLevel(){
     if (a < 1) {
       alert("Please fill in whole numbers greater than 0 for glasses.");
       retry = false;
-      break;
     } else if (w < 1) {
       alert("Please fill in whole numbers greater than 0 for weight.");
       retry = false;
-      break;
     } else if (h < 1) {
       alert("Please fill in whole numbers greater than 0 for hours.");
       retry = false;
-      break;
     }
 
     var bag = ((a * 10) / (w * r) - (h - 0.5) * (w * 0.002)).toFixed(2);
